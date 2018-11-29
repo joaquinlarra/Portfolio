@@ -148,7 +148,7 @@ const SocialIcon = styled.span`
 const Index = () => (
   <React.Fragment>
     <SEO />
-    <Parallax pages={4}>
+    <Parallax pages={5}>
       <Divider speed={0.2} offset={0}>
         <UpDown>
           <IconContext.Provider value={{size: '12em', color: '#689F64',style: { verticalAlign: 'middle', marginLeft: '40%', marginTop: '10%' }}}> <FaNodeJs /> </IconContext.Provider>
@@ -171,10 +171,10 @@ const Index = () => (
       <DividerMiddle
         bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
         speed={0.3}
-        offset={0.9}
+        offset={1}
         factor={2}
       />
-      <Content speed={0.4} offset={0.9} factor={2}>
+      <Content speed={0.4} offset={1} factor={2}>
         <Inner>
           <Title>Latest Projects</Title>
           <ProjectsWrapper>
@@ -208,7 +208,7 @@ const Index = () => (
           </ProjectsWrapper>
         </Inner>
       </Content>
-      <Content speed={0.4} offset={2.5}>
+      <Content speed={0.4} offset={3}>
         <Inner>
           <Title>About</Title>
           <AboutHero>
@@ -228,7 +228,7 @@ const Index = () => (
           </AboutDesc>
         </Inner>
       </Content>
-      <Divider fill="#23262b" speed={0.2} offset={3.1}>
+      <Divider fill="#23262b" speed={0.2} offset={4}>
         <WaveWrapper>
           <InnerWave>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 338.05" preserveAspectRatio="none">
@@ -244,7 +244,7 @@ const Index = () => (
           </InnerWave>
         </WaveWrapper>
       </Divider>
-      <Content speed={0.4} offset={3.1}>
+      <Content speed={0.4} offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
