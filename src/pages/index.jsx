@@ -148,11 +148,11 @@ const SocialIcon = styled.span`
 const Index = () => (
   <React.Fragment>
     <SEO />
-    <Parallax pages={5}>
+    <Parallax pages={4}>
       <Divider speed={0.2} offset={0}>
         <UpDown>
-          <IconContext.Provider value={{size: '12em', color: '#689F64',style: { verticalAlign: 'middle', marginLeft: '40%', marginTop: '10%' }}}> <FaNodeJs /> </IconContext.Provider>
-          <IconContext.Provider value={{size: '12em', color: '#61DAFB',style: { verticalAlign: 'middle', marginTop: '10%',marginLeft: '2%', position: 'absolute' }}}> <FaReact /> </IconContext.Provider>
+          <IconContext.Provider value={{size: '20%', color: '#689F64',style: { verticalAlign: 'middle', marginLeft: '40%', marginTop: '10%' }}}> <FaNodeJs /> </IconContext.Provider>
+          <IconContext.Provider value={{size: '20%', color: '#61DAFB',style: { verticalAlign: 'middle', marginTop: '10%',marginLeft: '2%', position: 'absolute' }}}> <FaReact /> </IconContext.Provider>
         </UpDown>
  
       </Divider>
@@ -171,12 +171,12 @@ const Index = () => (
       <DividerMiddle
         bg="linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)"
         speed={0.3}
-        offset={1}
+        offset={0.8}
         factor={2}
       />
-      <Content speed={0.4} offset={1} factor={2}>
+      <Content speed={0.4} offset={0.8} factor={2}>
         <Inner>
-          <Title>Latest Projects</Title>
+          <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
               title="LydiasUniforms.com"
@@ -201,14 +201,14 @@ const Index = () => (
             <ProjectCard
               title="BuyVestex.com"
               link="https://www.buyvestex.com"
-              bg="linear-gradient(to right, rgba(207,170,255,0.9) 0%, rgba(0,255,240,0.9) 100%), url('/images/vestex.jpg')"
+              bg="linear-gradient(to right, rgba(127,90,195,0.9) 0%, rgba(0,205,190,0.9) 100%), url('/images/vestex.jpg')"
             >
             Developed B2B e-commerce spinoff <a href="https://www.nwvestex.org/customer/account/login/">Northwell health</a>, which was then replicated in other hospitals.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
       </Content>
-      <Content speed={0.4} offset={3}>
+      <Content speed={0.4} offset={2.3}>
         <Inner>
           <Title>About</Title>
           <AboutHero>
@@ -228,7 +228,7 @@ const Index = () => (
           </AboutDesc>
         </Inner>
       </Content>
-      <Divider fill="#23262b" speed={0.2} offset={4}>
+      <Divider fill="#23262b" speed={0.2} offset={3}>
         <WaveWrapper>
           <InnerWave>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 338.05" preserveAspectRatio="none">
@@ -244,7 +244,7 @@ const Index = () => (
           </InnerWave>
         </WaveWrapper>
       </Divider>
-      <Content speed={0.4} offset={4}>
+      <Content speed={0.4} offset={3}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
