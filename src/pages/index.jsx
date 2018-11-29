@@ -179,27 +179,27 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="LydiasUniforms.com"
+              title="Lydias Uniforms"
               link="https://www.lydiasuniforms.com"
               bg="linear-gradient(to right, rgba(200,16,60,0.9) 0%, rgba(240,190,38,0.8) 100%), url('/images/lydias.jpg')"
             >
               Migrated site to Shopify: Applied frontend design from guidelines and data migration. Created backend that connects Shopify and NetSuite in Node / React for site & subsidiaries.<br />
             </ProjectCard>
             <ProjectCard
-              title="HogueInc.com"
+              title="Hogue Inc"
               link="https://www.hogueinc.com/"
               bg="linear-gradient(to right, rgba(110,31,150,0.9) 0%, rgba(195,22,130,0.9) 100%), url('/images/hogue.jpg')"
             >
              Developed site V2 from ground to go-live: Scoped project, managed dev team, migrated DB, server & backend config.
             </ProjectCard>
             <ProjectCard
-              title="MightySkins.com"
+              title="Mighty Skins"
               link="https://mightyskins.com/"
               bg="linear-gradient(to right, rgba(0,170,70,0.9) 0%, rgba(250,240,30,0.9) 100%), url('/images/mightyskins.jpg')"            >
             Continued project from 20-30% till go-live: data migration, server and backend config, added and configured complex UI extensions.
             </ProjectCard>
             <ProjectCard
-              title="BuyVestex.com"
+              title="Buy Vestex"
               link="https://www.buyvestex.com"
               bg="linear-gradient(to right, rgba(127,90,195,0.9) 0%, rgba(0,205,190,0.9) 100%), url('/images/vestex.jpg')"
             >
@@ -228,7 +228,7 @@ const Index = () => (
           </AboutDesc>
         </Inner>
       </Content>
-      <Divider fill="#23262b" speed={0.2} offset={3}>
+      <Divider fill="#23262b" speed={0.2} offset={3.1}>
         <WaveWrapper>
           <InnerWave>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 338.05" preserveAspectRatio="none">
@@ -244,7 +244,7 @@ const Index = () => (
           </InnerWave>
         </WaveWrapper>
       </Divider>
-      <Content speed={0.4} offset={3}>
+      <Content speed={0.4} offset={3.1}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
