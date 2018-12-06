@@ -1,7 +1,7 @@
 /* global tw */
 import React from 'react';
 import { IconContext } from 'react-icons';
-import { FaJs, FaNodeJs, FaReact, FaDatabase, FaGit, FaLinkedin, FaStackOverflow} from 'react-icons/fa';
+import { FaJs, FaNodeJs, FaReact, FaDatabase, FaGithub, FaLinkedin, FaStackOverflow} from 'react-icons/fa';
 import styled from 'react-emotion';
 import 'typeface-cantata-one';
 import 'typeface-open-sans';
@@ -251,7 +251,7 @@ const Index = () => (
             Send me an <a href="mailto:&#106;&#111;&#097;&#113;&#117;&#105;&#110;&#097;&#115;&#116;&#101;&#108;&#097;&#114;&#114;&#097;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">email</a> or find me on :<br /><br />
              <div align="center">
              <IconContext.Provider value={{size: '3em',style: { verticalAlign: 'middle', textAlign: 'center' }}}>
-              <SocialIcon><a href="https://gitlab.com/joaquinlarra" target="_blank"><FaGit /></a> </SocialIcon>
+              <SocialIcon><a href="https://github.com/joaquinlarra" target="_blank"><FaGithub /></a> </SocialIcon>
               <SocialIcon><a href="https://www.linkedin.com/in/joaquinastelarra/" target="_blank"><FaLinkedin /></a></SocialIcon>
               <SocialIcon><a href="https://stackoverflow.com/users/756411/joaquinlarra" target="_blank"><FaStackOverflow /></a></SocialIcon>
              </IconContext.Provider>
